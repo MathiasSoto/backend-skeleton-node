@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="63665696-8629-45ce-a238-ba023ff9b1d3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/api/controller/AccountController.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/controller/AccountController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/controller/AuthController.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/controller/AuthController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/logs/combined.log" beforeDir="false" afterPath="$PROJECT_DIR$/api/logs/combined.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/api/logs/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/admin:init.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/admin:init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/database:sync.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/database:sync.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/token.secret:generate.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/token.secret:generate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/account/CreatAccountUseCase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/account/CreatAccountUseCase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/auth/authenticationUseCase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/auth/authenticationUseCase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/repository/UserRepositoryDatabase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/repository/UserRepositoryDatabase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Account.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Account.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Event.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Event.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/EventDescription.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/EventDescription.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Participant.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Participant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Program.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Program.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Cr9kVWGfM2YopcIBC80ApciIrX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63665696-8629-45ce-a238-ba023ff9b1d3" name="Changes" comment="" />
+      <created>1659549982188</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659549982188</updated>
+      <workItem from="1659549985975" duration="25000" />
+      <workItem from="1659583642928" duration="8000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
