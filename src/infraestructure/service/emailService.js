@@ -1,6 +1,6 @@
 import nodemailer from "nodemailer";
 import { configOptions, fromEmailAddress } from "../../../config/email";
-import { SendEmailError } from "../../application/error/emailError";
+import { SendEmailError } from "../../error/sendEmailError";
 
 const emailEngine = () => {
     return nodemailer.createTransport(configOptions);

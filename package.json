@@ -9,7 +9,7 @@
     "build": "babel api/app.js -d dist",
     "database:sync": "babel-node scripts/database:sync.js",
     "admin:init": "babel-node scripts/admin:init.js",
-    "secret:generate": "babel-node scripts/token.secret:generate.js",
+    "secret:generate": "babel-node scripts/secret:generate.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mathias Soto",

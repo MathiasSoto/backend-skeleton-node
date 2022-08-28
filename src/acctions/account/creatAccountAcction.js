@@ -1,6 +1,8 @@
-import { repository, service } from "../../container";
 import schema from "joi";
+
+import { repository, service } from "../../container";
 import { database } from "../../../config/database";
+import { accountResponse } from "../../../api/views/accountResponse";
 
 export const validator = schema.object({
     accountName: schema.string().required(),
@@ -23,7 +25,10 @@ export const createAccount = async (data) => {
 
         logger.info("create.account.step1", { account });
 
-        // TODO: Antes de crear el usuario validar si ya no existe uno con el mismo email
+        if (await repository.users.getUserByEmail(data.email)) {
+            throw new Error("User's email already exists");
+        }
+        
         const user = (await repository.users.createUser({
             firstName: data.firstName,
             lastName: data.lastName,
@@ -35,18 +40,8 @@ export const createAccount = async (data) => {
 
         await transaction.commit();
 
-        return {
-            account: {
-                id: account.id,
-                name: account.name,
-                user: {
-                    id: user.id,
-                    firstName: user.firstName,
-                    lastName: user.lastName,
-                    email: user.email,
-                }
-            }
-        }
+        return accountResponse(account, user);
+
     } catch (error) {
         await transaction.rollback();
         throw error;

@@ -14,7 +14,7 @@ export const authenticationMiddleware = (request, response, next) => {
 }
 
 const validate = (request, response, next) => {
-    const token = request?.header('authentication');
+    const token = request?.header('Authorization');
     if (!token) return response.status(401).json({ error: "Access denied" });
     try {
         const verified = service.jwt.validateToken(token);

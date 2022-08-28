@@ -1,4 +1,4 @@
-import { authenticate, validator } from "../../src/application/auth/authenticationUseCase";
+import { authenticate, validator } from "../../src/acctions/auth/authenticationAcction";
 import { validate } from "../utils/schemaValidator";
 
 export const post = async (request, response, next) => {

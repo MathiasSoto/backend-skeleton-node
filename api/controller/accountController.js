@@ -1,4 +1,4 @@
-import { createAccount, validator } from "../../src/application/account/creatAccountUseCase";
+import { createAccount, validator } from "../../src/acctions/account/creatAccountAcction";
 import { validate } from "../utils/schemaValidator";
 
 export const post = async (request, response, next) => {

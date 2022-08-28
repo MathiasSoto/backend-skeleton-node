@@ -1,5 +1,5 @@
 import { repository, service } from "../../container";
-import { AuthenticationError } from "../error/authError";
+import { AuthenticationError } from "../../error/authenticationError";
 import schema from "joi";
 
 export const validator = schema.object({
